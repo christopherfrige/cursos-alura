@@ -7,7 +7,9 @@ Diferentemente de algumas das outras pastas, essa foi um estudo individual, e n�
 **Diferença entre DynamoDB Client e Resource**
 -  Com o client as APIs do DynamoDB são acessados de uma maneira mais baixo nível (tendo que específicar varias coisas)
 - O resource permite um acesso mais voltado a orientação a objetos.
-- IMPORTANTE: se for usar o Resource, dar o import: "from boto3.dynamodb.conditions import Key"
+- IMPORTANTE: se for usar o Resource, importar:
+ 
+        from boto3.dynamodb.conditions import Key
 
 **Maior explicação acerca da Hash e Range keys**
 - HASH -> Partition Key
